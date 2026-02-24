@@ -36,7 +36,7 @@ function onSearchSubmit(event) {
       if (images.length === 0) {
         iziToast.warning({
           message:
-            'На жаль, за вашим запитом нічого не знайдено. Спробуйте інший запит.',
+            'Sorry, there are no images matching your search query. Please try again!',
           position: 'topRight',
         });
         return;
